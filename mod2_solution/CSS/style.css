@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    text-align: center;
+    margin: 11px;
+    font-weight: bold;
+}
+.common{
+    background-color: rgb(152, 151, 158);
+    font-weight: 700;
+    padding: 9px;
+    position: relative;
+    border: 3px solid black;
+    margin: 21px 51px;
+}
+.para{
+    margin-top: 5%;
+}
+.chicken{
+    background-color: rgba(235, 101, 175, 0.658);
+    position: absolute;
+    width: 31%;
+    top:0px;
+    right: 0px;
+    text-align: center;
+    /* margin-bottom: 5px; */
+    border: 3px solid black;
+    border-top: none;
+    border-right: none;
+    z-index: 2;
+    opacity: 5;
+}
+.beef{
+    background-color: rgba(241, 21, 50, 0.493);
+    position: absolute;
+    width: 31%;
+    top:0px;
+    right: 0px;
+    text-align: center;
+    /* margin-bottom: 5px; */
+    border: 3px solid black;
+    border-top: none;
+    border-right: none;
+    z-index: 2;
+    opacity: 5;  
+}
+.sushi{
+    background-color: rgba(220, 243, 11, 0.596);
+    position: absolute;
+    width: 31%;
+    top:0px;
+    right: 0px;
+    text-align: center;
+    /* margin-bottom: 5px; */
+    border: 3px solid black;
+    border-top: none;
+    border-right: none;
+    z-index: 2;
+    opacity: 5;
+}
+@media (min-width:768px) and (max-width:991px) {
+    .comm1{
+        float: left;
+        width: 45.5%;
+        margin: 4% 1.5% 3% 3%;
+    }
+    .comm2{
+        float: right;
+        width: 45.5%;
+        margin: 4% 3% 3% 1.5%;
+    }
+    .comm3{
+        clear:both;
+        margin: 4% 3% 3% 3%;
+    }
+}
+@media (min-width:992px) {
+    .comm1{
+        float: left;
+        width: 29%;
+        margin-left: 3%;
+        margin-right: 0%;
+    }
+    .comm2{
+        float: left;
+        width: 29%;
+        margin-left: 3%;
+        margin-right: 0%;
+    }
+    .comm3{
+        float: left;
+        width: 29%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .clearify{
+        clear: both;
+    }
+}
