@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0);
+    border-color: rgba(0,0,0);
+}
+.navbar-toggler{
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 2px solid transparent;
+    border-radius: .25rem;
+}
+.container{
+    border:2px solid blue;
+    margin: 0px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+.common{
+    background-color: rgb(152, 151, 158);
+    font-weight: 700;
+    padding: 9px;
+    position: relative;
+    width: 69vw;
+    margin: auto;
+    /* border: 3px solid black; */
+    margin-top: 3vh ;
+}
+
+.para{
+    margin-top: 3vh;
+}
+.chicken{
+    background-color: rgb(152, 151, 158);
+    position: absolute;
+    width: 31%;
+    top:0px;
+    left: 31%;
+    text-align: center;
+    /* margin-bottom: 5px; */
+    /* border: 3px solid black; */
+    border-top: none;
+    border-right: none;
+    /* z-index: 2;
+    opacity: 5; */
+}
+.beef{
+    background-color: rgb(152, 151, 158);   
+    position: absolute;
+    width: 31%;
+    top:0px;
+    left: 31%;
+    text-align: center;
+    /* margin-bottom: 5px; */
+    /* border: 3px solid black; */
+    border-top: none;
+    border-right: none;
+    /* z-index: 2;
+    opacity: 5;   */
+}
+.sushi{
+    background-color: rgb(152, 151, 158);    
+    position: absolute;
+    width: 31%;
+    top:0px;
+    left: 31%;
+    text-align: center;
+    /* margin-bottom: 5px; */
+    /* border: 3px solid black; */
+    border-top: none;
+    border-right: none;
+    /* z-index: 2;
+    opacity: 5; */
+}
+.bg-secondary{
+    background-color:rgb(152, 151, 158)!important;
+}
+.fl{
+    text-decoration: none;
+   color: black!important; 
+}
+.bx{
+    border-bottom: 3px solid black;
+}
+.bx:hover,.bx1:hover{
+    background-color: rgb(106, 224, 224);
+
+}
+.my{
+    background-color: white;
+    border-top: 3px solid black;
+    text-align: center;
+    color: black;
+    margin-top: 5px;
+}
+.bmy{
+    border: 3px solid black;
+    padding: 0px;
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    padding-left: 21px;
+}
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 2px solid transparent;
+    border-radius: .25rem;
+    margin-right: 7%;
+}
+@media (min-width: 575px) {
+    .my{
+        display: none;
+    }
+    .common{
+        width: 91vw;
+    }
+}
